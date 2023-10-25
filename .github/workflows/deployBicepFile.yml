@@ -20,5 +20,5 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./infra/main.bicep
-        parameters: 'apiManagementServiceName=aoia-apim-test-demo publisherEmail=yyakoubi@microsoft.com aoaiPrimaryAccount=${{ secrets.AOIAPRIMARYACCOUNT }} aoaiSecondaryAccount=${{ secrets.AOIASECONDARYACCOUNT }} aoaiPrimaryLLMDeployment=${{ secrets.AOAIPRIMARYLLMDEPLOYMENT }} aoaiSecondaryLLMDeployment=${{ secrets.AOAIPRIMARYLLMDEPLOYMENT }} '
+        parameters: 'apiManagementServiceName=aoia-apim-test-demo publisherName=yyacine publisherEmail=yyakoubi@microsoft.com aoaiPrimaryAccount=${{ secrets.AOIAPRIMARYACCOUNT }} aoaiSecondaryAccount=${{ secrets.AOIASECONDARYACCOUNT }} aoaiPrimaryLLMDeployment=${{ secrets.AOAIPRIMARYLLMDEPLOYMENT }} aoaiSecondaryLLMDeployment=${{ secrets.AOAIPRIMARYLLMDEPLOYMENT }} '
         failOnStdErr: false
