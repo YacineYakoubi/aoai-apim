@@ -9,7 +9,7 @@ param publisherEmail string
 @minLength(1)
 param publisherName string
 
-@description('The pricing tier of this API Management service')
+@description('The pricing tier of this APIManagement service')
 @allowed([
   'Developer'
   'Standard'
