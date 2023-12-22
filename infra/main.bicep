@@ -46,7 +46,6 @@ resource apiManagementService 'Microsoft.ApiManagement/service@2021-08-01' = {
 }
 
 
-
 resource primarybackend 'Microsoft.ApiManagement/service/backends@2023-03-01-preview' = {
   name: 'primary'
   parent: apiManagementService
